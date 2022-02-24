@@ -7,6 +7,7 @@
 #include <stdio.h>
 
 typedef unsigned int 			U32;
+typedef unsigned char			U8;
 
 const U32 StringIdHash(const char* str);
 const U32 StringIdHashConcat(U32 base, const char* str);
